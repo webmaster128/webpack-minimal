@@ -1,6 +1,6 @@
 # webpack-minimal
 
-Minimalistic Webpack setup with Babel.
+Minimalistic Webpack setup.
 
 ## Getting started
 
