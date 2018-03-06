@@ -6,7 +6,8 @@
   "main": "src/index.js",
   "scripts": {
     "start": "webpack-dashboard -- webpack-dev-server --port=5000",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config cryptoworker.webpack.config.js"
   },
   "repository": {
     "url": "git+https://github.com/crisu83/webpack-minimal.git",

@@ -10,8 +10,18 @@ module.exports = {
     'webpack-hot-middleware/client',
   ],
   resolve: {
-    modules: ['src', 'node_modules'],
+    modules: [
+      'src',
+      'custom_modules',
+      'node_modules'
+    ],
     extensions: ['.js']
+  },
+  output: {
+    publicPath: '/worker/'
+  },
+  node: {
+    fs: 'empty'
   },
   module: {
     loaders: [
