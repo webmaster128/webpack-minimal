@@ -17,9 +17,6 @@ module.exports = {
     ],
     extensions: ['.js']
   },
-  output: {
-    publicPath: '/worker/'
-  },
   node: {
     fs: 'empty'
   },
