@@ -26,9 +26,9 @@
     "html-webpack-plugin": "^2.22.0",
     "json-loader": "^0.5.4",
     "style-loader": "^0.13.1",
-    "webpack": "^1.13.2",
-    "webpack-dashboard": "^0.2.0",
-    "webpack-dev-server": "^1.16.2",
+    "webpack": "^3.0.0",
+    "webpack-dashboard": "^1.0.0",
+    "webpack-dev-server": "^2.0.0",
     "webpack-hot-middleware": "^2.12.2"
   },
   "license": "MIT"

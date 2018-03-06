@@ -5,10 +5,13 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   devtool: 'eval',
-  entry: './src/index.js',
+  entry: [
+    './src/index.js',
+    'webpack-hot-middleware/client',
+  ],
   resolve: {
-    modulesDirectories: ['src', 'node_modules'],
-    extensions: ['', '.js']
+    modules: ['src', 'node_modules'],
+    extensions: ['.js']
   },
   module: {
     loaders: [
